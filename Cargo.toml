@@ -1,0 +1,10 @@
+[package]
+name = "hacker_rank"
+version = "0.1.0"
+edition = "2021"
+
+[workspace]
+members = ["utils", "nd_subset"]
+
+[dependencies]
+utils = { path = "utils" }
