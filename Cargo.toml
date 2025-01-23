@@ -4,7 +4,7 @@ version = "0.1.0"
 edition = "2021"
 
 [workspace]
-members = ["utils", "nd_subset"]
+members = ["utils", "nd_subset", "queen_attack", "ashton_string"]
 
 [dependencies]
 utils = { path = "utils" }
